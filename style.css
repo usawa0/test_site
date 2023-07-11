@@ -6,19 +6,21 @@ body {
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: 400;
-
-  text-align: left;
+  max-width: 700px;
 }
-.quote q {
-  color: lightgrey;
-  font-style: italic;
-  letter-spacing: 1px;
+.quote {
+  color: lightcyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  max-width: 300px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.left {
+  text-align: left;
 }
 .annotation {
-  font-weight: bold;
-}
-table {
-  text-align: left;
+  padding: 5px;
 }
 .activity li {
   font-style: oblique;
