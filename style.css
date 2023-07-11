@@ -7,8 +7,6 @@ body {
   font-size: 16px;
   font-weight: 400;
 
-  position:absolute;
-  width:30%;
   text-align: left;
 }
 .quote q {
