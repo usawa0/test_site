@@ -22,10 +22,18 @@ body {
 .annotation {
   padding: 5px;
 }
-.activity li {
+.activity {
+  padding: 5px;
+}
+li {
   font-style: oblique;
   letter-spacing: 1px;
+  padding: 1px;
 }
-.link {
+a {
   color: bisque;
+}
+cite {
+  padding-left: 30px;
+  font: italic;
 }
