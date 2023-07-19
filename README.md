@@ -1,9 +1,11 @@
-# Первая попытка в HTML & CSS
+# Первая работа в HTML & CSS
 
-### Тут страница Кастанеды
+### Сделал страничку не себе а Кастанеде
 
-[Страница Кастанеды ](https://usawa0.github.io/test_site/)
+[Страница Кастанеды](https://usawa0.github.io/test_site/)
 
-### А тут включил редактора
+### Скромная редакция перевода затеряной главы одной из книг Кастанеды
 
-[Карлос Кастанеда. Шесть Объясняющих Предположений](https://usawa0.github.io/test_site/index-the_eagle's_gift.html)
+[Оригинал](http://www.lib.ru/KASTANEDA/kast6bis.txt)
+
+[Моя редакция](https://usawa0.github.io/test_site/index-the_eagle's_gift.html)
