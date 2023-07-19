@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background: #C0C0C0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-text {
+  margin-left: 15px;
+}
+
+.info-text p {
+  color: #00008B;
+  font-style: italic;
+  font-weight: bold;
+  text-indent: 20px;
+  margin: 0;
+}
+
+@media(max-width: 590px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .info-text {
+    text-align: left;
+  }
+}
+
+.card {
+  padding: 10px 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: all .2s;
+}
+
+.card:hover {
+  opacity: .9;
+  margin-left: 5px;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.bg-green {
+  background: #8FBC8F;
+}
+
+.bg-blue {
+  background: lightblue;
+}
+
+.bg-yellow {
+  background: #F3E5AB;
+}
+
+.avatar {
+  max-width: 200px;
+  box-shadow: 4px 4px 24px rgba(0, 0, 0, .5);
+  border-radius: 50%;
+}
+
+a {
+  color: darkviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkblue;
+}
+
+a:visited {
+  color: red;
+}
+
+.btn {
+  font-family: inherit;
+  background: darkslateblue;
+  color: cornsilk;
+  cursor: pointer;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  transition: all .2s;
+}
+
+.btn:hover {
+  background: darkorchid;
+  margin-left: 5px;
+}
+
+.table td {
+  padding-bottom: 5px;
+}
+
+.table td:nth-child(2) {
+  color: #4b4242;
+}
+
+.list-work {
+  padding: 0 10px;
+  list-style: none;
+}
+
+.list-work li {
+  color: rgb(61, 61, 61);
+  margin-bottom: 3px;
+  border-bottom: 1px solid grey;
+}
+
+.list-book li {
+  margin-bottom: 3px;
+}
+
+.list-book li:nth-child(odd) {
+  background: #f9f1ba;  
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  /* display: inline-block; */
+  margin-right: 20px;
+  width: 50%;
+  /* width: calc(50%-20px) */
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+@media(max-width: 590px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: black;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #a09d9d;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: 0;
+  font-family: inherit;
+}
